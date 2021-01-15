@@ -27,7 +27,7 @@ end
   end
 
   def count_sentences
-    if self.count > 3
+    if self.split.(/{.!?+/).count
       true
     else
       false
