@@ -28,9 +28,7 @@ end
 
   def count_sentences
     if self.split.(/{.!?+/).count
-      true
-    else
-      false
+    
   end
 end
   
